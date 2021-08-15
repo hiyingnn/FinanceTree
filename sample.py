@@ -42,7 +42,7 @@ def download_article(URL):
 
 
 if __name__ == "__main__":
-    URL = input("provide article URL: ")
+    URL = input("provide article URL change added: ")
     # check if the url is valid/reachable
     if requests.get(URL).status_code == 200:
         try:
