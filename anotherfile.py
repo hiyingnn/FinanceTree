@@ -1,5 +1,6 @@
-def itscoolright():
-	print("new function")
 
-def itsdevcoolright():
-	print("another function")
+    def itscoolright():
+        print("new function")
+
+    def itsdevcoolright():
+        print("another function")
