@@ -7,6 +7,7 @@ status_dict = {"Website": "Status"}
 
 
 def main():
+    print("changes added")
     with open("websites.txt", "r") as fr:
         for line in fr:
             website = line.strip()
